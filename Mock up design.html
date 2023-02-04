@@ -10,6 +10,9 @@
     <!---CDN-->
     <!--FontAwesome CDN-->
         <title>Project 1</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Poppins:wght@100&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!---Started-->
@@ -17,35 +20,57 @@
     <header>
         <nav>
             <!--Logo-->
-            <div>Logo</div>
+            <div class="logo">
+             <img class="logo-image"src="image/logo1.jpg">   
+            </div>
             <!--Menus-->
+            <div>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact </a></li>
+              <a href="#" target="blank">Home</a>  &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#" target="blank">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#" target="blank">Contact </a>
             
             </ul>
+        </div>
             <!--Search Area-->
-            <div>
+            <div class="search-field">
                 <input type="text" placeholder="Search">
                 <button>Search</button>
             </div>
                 </nav>
     </header>
     <!--Hero Section-->
-    <section>
+    <section class="hero-section">
         <!--Left Section of Hero-->
-        <div>
+        <div class="hero-left-section">
             <h1>
                 Hello, I am a <span>Web Developer</span></h1>
           <p>
      I am an aspiring <span>Full Stack  Javascript Developer</span>, <br> who is currently working as a <span>a Freelancer</span> for <span>National and International Client</span>
     </p>
      </div>
-    </section>
-    <!--Right Hero Section -->
-    <div>
-        <img src="" alt="">
+     <!--Right Hero Section -->
+    <div class="hero-right-section">
+        <img src="image/i1.jpg" alt="shri" height="300px">
+        <div class="hero-right-section-btn">
+            <button>
+                Chat With me
+            </button>
+        </div>
     </div>
+    </section>
+    <footer>
+        <p>
+            copyright &#169; 2022 Logo, All rights reserved.
+        </p>
+        <ul>
+            <li><a href="#">Github</a></li>
+            <li><a href="#">Linkedin</a></li>
+            <li><a href="#">Instagram</a></li>
+               
+            
+        </ul>
+    </footer>
+    
 </body>
 </html>
